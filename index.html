@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homework-HTML/CSS</title>
+	<meta charset="utf-8">
+	<style>
+        
+        body {
+	margin-top: 10px;
+	padding: 0;
+}
+        .conteiner {
+	background-color: #FFCDD2;
+}
+       .master {
+	margin: 0 auto;
+	width: 50%;
+	background-color: #ffffff;
+    display: block;
+} 
+        p {
+	color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Verdana;
+    text-shadow: 3px 2px #BA68C8;
+    text-align: center;
+    display: inline-block;
+}
+        .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+        .header {
+	width: 100%;
+}
+        .logo {
+	position: left;
+	float: left;
+	padding: 2.5% 11%;
+}
+        .banner {
+	float: right;
+	padding: 2.5% 7%;
+}
+        .navigation {
+	display: block;
+	padding: 7px;
+	margin: 12px 0;
+	text-align: center;
+}
+        .basic {
+	display: flex;
+	height: 65vh;
+}
+        .left{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 100%;
+	padding-right: 15px;
+}
+        .center{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+	padding-right: 15px;
+}
+        .right{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+}
+        .general {
+	display: flex;
+	justify-content: center;	
+}
+        .deal {
+	height: 25%;
+	margin-bottom: 15px;
+}
+        .partners {
+	height: 25%;
+	margin-bottom: 15px; 
+}
+        .categorized {
+ 	height: 50%;	
+}
+        .membership {
+	height: 40%;
+	margin-bottom: 15px; 
+}
+        .pet {
+ 	height: 75%
+}
+        .description {
+	height: 27%;
+	margin-bottom: 15px; 
+}
+        .post {
+	height: 55%;
+	margin-bottom: 15px;
+}
+        .discusion{
+	height: 27%;
+}
+        .footer {
+	padding: 7px;
+    margin-bottom: 15%;
+}
+    </style>
+</head>
+<body>
+	<div class="master">
+		<header class="header clearfix">
+			<div class="logo conteiner">
+				<p>Logo</p>
+			</div>
+			<div class="banner conteiner">
+				<p>Futury banner ad Placement</p>
+			</div>
+		</header>
+		<nav class="navigation conteiner">
+			<p>Main Navigation</p>
+		</nav>
+		<main class="basic">
+			<div class="left">
+				<section class="deal conteiner general">
+					<p>Deal of the Week</p>
+				</section>
+				<section class="partners conteiner general">
+					<p>Highlighted Partners</p>
+				</section>
+				<section class="categorized conteiner general">
+					<p>Highlighted Categorized Deals</p>
+				</section>
+			</div>
+			<div class="center">
+				<div class="membership conteiner general">
+					<p>Membership <br>
+                    Sign up</p>
+				</div>
+				<div class="pet conteiner general">
+					<p>Pet Insurance</p>
+				</div>
+			</div>
+			<div class="right">
+				<aside class="description conteiner general">
+					<p>Description of Site</p>
+				</aside>
+				<aside class="post conteiner general">
+					<p>Last 5 <br>
+                    Blog Posts <br>
+					(Headline  summary)</p>
+				</aside>
+				<aside class="discusion conteiner general">
+					<p>Highlited <br>
+                    Discusion Forum Post</p>
+				</aside>
+			</div>
+		</main>
+		<footer class="footer navigation conteiner">
+			<p>Footer</p>         
+		</footer>
+	</div>
+</body>
+</html>
