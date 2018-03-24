@@ -1,0 +1,107 @@
+  
+        body {
+	margin-top: 10px;
+	padding: 0;
+}
+        .conteiner {
+	background-color: #FFCDD2;
+}
+       .master {
+	margin: 0 auto;
+	width: 50%;
+	background-color: #ffffff;
+    display: block;
+} 
+        p {
+	color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Verdana;
+    text-shadow: 3px 2px #BA68C8;
+    text-align: center;
+    display: inline-block;
+}
+        .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+        .header {
+	width: 100%;
+}
+        .logo {
+	position: left;
+	float: left;
+	padding: 2.5% 11%;
+}
+        .banner {
+	float: right;
+	padding: 2.5% 7%;
+}
+        .navigation {
+	display: block;
+	padding: 7px;
+	margin: 12px 0;
+	text-align: center;
+}
+        .basic {
+	display: flex;
+	height: 65vh;
+}
+        .left{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	height: 100%;
+	padding-right: 15px;
+}
+        .center{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+	padding-right: 15px;
+}
+        .right{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 100%;
+}
+        .general {
+	display: flex;
+	justify-content: center;	
+}
+        .deal {
+	height: 25%;
+	margin-bottom: 15px;
+}
+        .partners {
+	height: 25%;
+	margin-bottom: 15px; 
+}
+        .categorized {
+ 	height: 50%;	
+}
+        .membership {
+	height: 40%;
+	margin-bottom: 15px; 
+}
+        .pet {
+ 	height: 75%
+}
+        .description {
+	height: 27%;
+	margin-bottom: 15px; 
+}
+        .post {
+	height: 55%;
+	margin-bottom: 15px;
+}
+        .discusion{
+	height: 27%;
+}
+        .footer {
+	padding: 7px;
+    margin-bottom: 15%;
+}
