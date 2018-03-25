@@ -8,14 +8,14 @@
 }
        .master {
 	margin: 0 auto;
-	width: 50%;
+	width: 70%;
 	background-color: #ffffff;
     display: block;
 } 
         p {
 	color: #ffffff;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Verdana;
     text-shadow: 3px 2px #BA68C8;
     text-align: center;
@@ -36,7 +36,7 @@
 }
         .banner {
 	float: right;
-	padding: 2.5% 7%;
+	padding: 2.5% 10%;
 }
         .navigation {
 	display: block;
@@ -103,5 +103,5 @@
 }
         .footer {
 	padding: 7px;
-    margin-bottom: 15%;
+    
 }
